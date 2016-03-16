@@ -1,11 +1,11 @@
 function result = encodeCharacter(in)
-% Encode a single character into the 12-bit sequence for the Code 39
-% barcode format. Adds the trailing zero on the end, to make 13 bits.
+% Encode a single character into the 16-bit sequence for the Code 39
+% barcode format.
 %
 % Rupert Thomas, March 2016
 %
-% Derived from Barcode Encoder (Code 39 format) by Lakshmi Nair
-% http://www.mathworks.com/matlabcentral/fileexchange/49483-barcode-encoder--code-39-format-
+% Thanks to (for the codes):
+% http://notionovus.com/blog/code-39-barcode-biscuits/#setup
 
 assert(ischar(in));
 assert(length(in)==1);
