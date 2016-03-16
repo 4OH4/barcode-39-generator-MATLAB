@@ -1,4 +1,6 @@
 % Demo: Generate and show a barcode in Code 39 format
+%
+% Rupert Thomas, March 2016
 
 testString = '123456';
 
