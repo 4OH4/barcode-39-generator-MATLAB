@@ -13,3 +13,8 @@ Does the conversion of individual characters into the binary-like sequence of 1'
 
 ### demo.m
 Runs generateBarcodeCode39.m with an example input, and displays the result in a MATLAB figure
+
+### multibarcode_sheet.m
+Creates a sheet of barcodes with random codes - useful for cross-referencing. Generates n random strings (default is just numeric) of a defined length, and converts them into a sheet of barcodes for easy printing. 
+
+This is akin to generating a number of GUIDs, although with no collision detection.
